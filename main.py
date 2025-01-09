@@ -330,5 +330,5 @@ def get_next_roll_number(student, new_school_code: str, db: Session) -> int:
         current_number = int(current_number_str)  # Convert it to an integer
         return current_number + 1
     else:
-        return 1  # If no existing roll numbers, start from 1
+        return 1  # no existing roll numbers, start from 1
 
